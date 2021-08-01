@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 @media (max-width: 992px) {
@@ -1082,7 +1082,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-/* .portfolio .portfolio-item {
+.portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -1231,7 +1231,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
-} */
+}
 
 /*--------------------------------------------------------------
 # Team
@@ -1706,12 +1706,14 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-/* .portfolio-details {
-  padding-top: 40px;
+.portfolio-details {
+  padding-top: 120px;
 }
 
 .portfolio-details .portfolio-details-container {
   position: relative;
+  max-width: 50%;
+  margin: auto;
 }
 
 .portfolio-details .portfolio-details-carousel {
@@ -1739,7 +1741,7 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  position: absolute;
+  /* position: absolute; */
   right: 0;
   bottom: -70px;
   background: #fff;
@@ -1788,7 +1790,7 @@ section {
     position: static;
     margin-top: 30px;
   }
-} */
+}
 
 /*--------------------------------------------------------------
 # Footer
